@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOLO26 Blood Cell Training Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #f5f7fb; --card: #ffffff; --ink: #1d2330; --muted: #667085; --line: #e1e5ee;
+    --wbc: #4C78A8; --rbc: #E45756; --plt: #54A24B; --accent: #2b6cb0;
+    --ok: #1b7f3b; --warn: #b7791f; --bad: #c53030;
+    color-scheme: light;
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1420; --card: #171e2e; --ink: #e6eaf2; --muted: #98a2b3; --line: #293247;
+    --accent: #7aa7e0; color-scheme: dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1420; --card: #171e2e; --ink: #e6eaf2; --muted: #98a2b3; --line: #293247;
+      --accent: #7aa7e0; color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.45 -apple-system, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--ink); }
+  header { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+           padding: 18px 24px; border-bottom: 1px solid var(--line); background: var(--card); position: sticky; top: 0; z-index: 2; }
+  h1 { font-size: 20px; margin: 0; }
+  h2 { font-size: 16px; margin: 0 0 12px; }
+  main { padding: 20px 24px 40px; display: grid; gap: 18px; max-width: 1400px; margin: 0 auto; }
+  .muted { color: var(--muted); }
+  .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-weight: 600; font-size: 12px; background: var(--line); }
+  .pill.running { background: #dbeafe; color: #1e40af; }
+  .pill.complete, .pill.finished { background: #dcfce7; color: #166534; }
+  .pill.error, .pill.failed { background: #fee2e2; color: #991b1b; }
+  .pill.queued, .pill.unknown { background: #fef3c7; color: #92400e; }
+  :root[data-theme="dark"] .pill.running { background: #1e3a5f; color: #bfdbfe; }
+  :root[data-theme="dark"] .pill.complete, :root[data-theme="dark"] .pill.finished { background: #14532d; color: #bbf7d0; }
+  :root[data-theme="dark"] .pill.error, :root[data-theme="dark"] .pill.failed { background: #7f1d1d; color: #fecaca; }
+  :root[data-theme="dark"] .pill.queued, :root[data-theme="dark"] .pill.unknown { background: #78350f; color: #fde68a; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; min-width: 0; }
+  .kpi .v { font-size: 26px; font-weight: 700; margin-top: 4px; font-variant-numeric: tabular-nums; }
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 18px; }
+  .chart-wrap { position: relative; height: 280px; }
+  .bar { height: 10px; background: var(--line); border-radius: 6px; overflow: hidden; margin-top: 10px; }
+  .bar > div { height: 100%; background: var(--accent); transition: width .6s; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: right; padding: 7px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--muted); font-weight: 600; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+  .gallery img, .figs img { width: 100%; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
+  .figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .scroll { overflow-x: auto; }
+  button { font: inherit; padding: 6px 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 8px; cursor: pointer; }
+  .note { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .empty { padding: 30px; text-align: center; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>YOLO26 blood cell detection</h1>
+    <div class="muted" id="subtitle">Loading data…</div>
+  </div>
+  <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap">
+    <span id="status" class="pill unknown">unknown</span>
+    <span class="muted" id="updated"></span>
+    <button id="theme" title="Toggle light and dark theme">Theme</button>
+  </div>
+</header>
+
+<main>
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid2">
+    <div class="card">
+      <h2>Training progress</h2>
+      <div id="progress-text" class="muted"></div>
+      <div class="bar"><div id="progress-bar" style="width:0%"></div></div>
+      <div class="note" id="progress-note"></div>
+    </div>
+    <div class="card">
+      <h2>Test-set performance by class</h2>
+      <div class="scroll" id="class-table"></div>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="card"><h2>Loss per epoch</h2><div class="chart-wrap"><canvas id="loss"></canvas></div></div>
+    <div class="card"><h2>Precision, recall and mAP</h2><div class="chart-wrap"><canvas id="metrics"></canvas></div></div>
+  </section>
+
+  <section class="grid2">
+    <div class="card"><h2>Validation mAP50-95 by epoch</h2><div class="chart-wrap"><canvas id="map"></canvas></div></div>
+    <div class="card"><h2>Learning rate</h2><div class="chart-wrap"><canvas id="lr"></canvas></div></div>
+  </section>
+
+  <section class="card">
+    <h2>Epoch log</h2>
+    <div class="scroll" id="epoch-table"></div>
+  </section>
+
+  <section class="grid2">
+    <div class="card">
+      <h2>Dataset</h2>
+      <div class="scroll" id="dataset-table"></div>
+      <div class="note" id="dataset-note"></div>
+    </div>
+    <div class="card">
+      <h2>Figures from the run</h2>
+      <div class="figs" id="figs"></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Test predictions (confidence ≥ 0.25)</h2>
+    <div class="gallery" id="gallery"></div>
+  </section>
+</main>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  const COLORS = { WBC: '#4C78A8', RBC: '#E45756', Platelets: '#54A24B' };
+  const charts = {};
+  const $ = (id) => document.getElementById(id);
+  const fmt = (x, d = 3) => (x === null || x === undefined || Number.isNaN(x)) ? '–' : Number(x).toFixed(d);
+  const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  function themeColors() {
+    const dark = document.documentElement.dataset.theme === 'dark' ||
+      (!document.documentElement.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
+    return { grid: dark ? '#293247' : '#e1e5ee', text: dark ? '#98a2b3' : '#667085' };
+  }
+
+  function lineChart(id, labels, datasets, yLabel) {
+    const t = themeColors();
+    if (charts[id]) charts[id].destroy();
+    charts[id] = new Chart($(id), {
+      type: 'line',
+      data: { labels, datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false, animation: false,
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          x: { title: { display: true, text: 'epoch', color: t.text }, ticks: { color: t.text }, grid: { color: t.grid } },
+          y: { title: { display: !!yLabel, text: yLabel || '', color: t.text }, ticks: { color: t.text }, grid: { color: t.grid } },
+        },
+        plugins: { legend: { labels: { color: t.text, boxWidth: 12 } } },
+      },
+    });
+  }
+
+  function series(records, key) {
+    return records.map(r => (r.metrics && r.metrics[key] !== undefined) ? r.metrics[key] : null);
+  }
+
+  function renderKpis(d) {
+    const best = d.best || {};
+    const items = [
+      ['Epochs done', d.progress ? `${d.progress.completed} / ${d.progress.total}` : '–'],
+      ['Best val mAP50-95', fmt(best.map50_95)],
+      ['Best val mAP50', fmt(best.map50)],
+      ['Test mAP50', d.test ? fmt(d.test.map50) : '–'],
+      ['Test mAP50-95', d.test ? fmt(d.test.map50_95) : '–'],
+      ['Train time', d.train_seconds ? `${(d.train_seconds / 60).toFixed(1)} min` : '–'],
+    ];
+    $('kpis').innerHTML = items.map(([k, v]) =>
+      `<div class="card kpi"><div class="muted">${esc(k)}</div><div class="v">${esc(v)}</div></div>`).join('');
+  }
+
+  function renderProgress(d) {
+    const p = d.progress;
+    if (!p) {
+      $('progress-text').textContent = 'No training progress yet. Start the Kaggle kernel and pull its outputs.';
+      return;
+    }
+    const pct = p.total ? Math.min(100, (p.completed / p.total) * 100) : 0;
+    $('progress-text').textContent = `${p.completed} of ${p.total} epochs (${pct.toFixed(0)}%)`;
+    $('progress-bar').style.width = pct + '%';
+    const latest = (d.records || []).slice(-1)[0];
+    $('progress-note').textContent = latest
+      ? `Latest epoch ${latest.epoch}: elapsed ${(latest.elapsed_s / 60).toFixed(1)} min` : '';
+  }
+
+  function renderClassTable(d) {
+    const rows = d.test && d.test.per_class ? d.test.per_class : null;
+    if (!rows) { $('class-table').innerHTML = '<div class="empty">Waiting for evaluation results.</div>'; return; }
+    const body = rows.map(r => `<tr><td><span class="dot" style="background:${COLORS[r.class] || '#999'}"></span>${esc(r.class)}</td>
+      <td>${fmt(r.precision)}</td><td>${fmt(r.recall)}</td><td>${fmt(r.map50)}</td><td>${fmt(r.map50_95)}</td></tr>`).join('');
+    const t = d.test;
+    $('class-table').innerHTML = `<table><thead><tr><th>Class</th><th>Precision</th><th>Recall</th><th>mAP50</th><th>mAP50-95</th></tr></thead>
+      <tbody>${body}<tr><td><b>All classes</b></td><td><b>${fmt(t.precision)}</b></td><td><b>${fmt(t.recall)}</b></td>
+      <td><b>${fmt(t.map50)}</b></td><td><b>${fmt(t.map50_95)}</b></td></tr></tbody></table>
+      <div class="note">Test split, ${t.images || ''} images. Platelets are the rarest class.</div>`;
+  }
+
+  function renderCharts(d) {
+    const recs = d.records || [];
+    if (!recs.length) return;
+    const labels = recs.map(r => r.epoch);
+    const loss = [
+      ['train/box_loss', 'train box', '#4C78A8'], ['train/cls_loss', 'train cls', '#E45756'],
+      ['val/box_loss', 'val box', '#72B7B2'], ['val/cls_loss', 'val cls', '#F58518'],
+    ];
+    lineChart('loss', labels, loss.map(([k, label, c]) => ({ label, data: series(recs, k), borderColor: c, pointRadius: 0, tension: .25 })), 'loss');
+    lineChart('metrics', labels, [
+      { label: 'precision', data: series(recs, 'metrics/precision(B)'), borderColor: '#4C78A8', pointRadius: 0, tension: .25 },
+      { label: 'recall', data: series(recs, 'metrics/recall(B)'), borderColor: '#E45756', pointRadius: 0, tension: .25 },
+      { label: 'mAP50', data: series(recs, 'metrics/mAP50(B)'), borderColor: '#54A24B', pointRadius: 0, tension: .25 },
+    ], 'value');
+    lineChart('map', labels, [
+      { label: 'mAP50-95 (val)', data: series(recs, 'metrics/mAP50-95(B)'), borderColor: '#B279A2', pointRadius: 0, tension: .25 },
+    ], 'mAP50-95');
+    lineChart('lr', labels, [
+      { label: 'learning rate', data: recs.map(r => (r.lr || [])[0] ?? null), borderColor: '#9D755D', pointRadius: 0, tension: .25 },
+    ], 'lr');
+  }
+
+  function renderEpochTable(d) {
+    const recs = d.records || [];
+    if (!recs.length) { $('epoch-table').innerHTML = '<div class="empty">No epochs logged yet.</div>'; return; }
+    const rows = recs.slice(-30).reverse().map(r => {
+      const m = r.metrics || {};
+      return `<tr><td>${r.epoch}</td><td>${fmt(m['train/box_loss'])}</td><td>${fmt(m['val/box_loss'])}</td>
+        <td>${fmt(m['metrics/precision(B)'])}</td><td>${fmt(m['metrics/recall(B)'])}</td>
+        <td>${fmt(m['metrics/mAP50(B)'])}</td><td>${fmt(m['metrics/mAP50-95(B)'])}</td>
+        <td>${Math.round(r.elapsed_s || 0)}s</td></tr>`;
+    }).join('');
+    $('epoch-table').innerHTML = `<table><thead><tr><th>Epoch</th><th>Train box loss</th><th>Val box loss</th>
+      <th>Precision</th><th>Recall</th><th>mAP50</th><th>mAP50-95</th><th>Elapsed</th></tr></thead><tbody>${rows}</tbody></table>
+      <div class="note">Latest 30 epochs, newest first.</div>`;
+  }
+
+  function renderDataset(d) {
+    const ds = d.dataset;
+    if (!ds) { $('dataset-table').innerHTML = '<div class="empty">Run scripts/analyze_dataset.py to generate dataset statistics.</div>'; return; }
+    const rows = Object.entries(ds.splits).map(([name, s]) =>
+      `<tr><td>${esc(name)}</td><td>${s.images}</td><td>${s.cells}</td>
+       <td>${s.class_counts.WBC ?? 0}</td><td>${s.class_counts.RBC ?? 0}</td><td>${s.class_counts.Platelets ?? 0}</td></tr>`).join('');
+    $('dataset-table').innerHTML = `<table><thead><tr><th>Split</th><th>Images</th><th>Cells</th><th>WBC</th><th>RBC</th><th>Platelets</th></tr></thead>
+      <tbody>${rows}</tbody></table>`;
+    const share = ds.class_share || {};
+    $('dataset-note').textContent = `Total ${ds.total_images} images and ${ds.total_cells} cells. Class share: ` +
+      Object.entries(share).map(([k, v]) => `${k} ${(v * 100).toFixed(1)}%`).join(', ') + '.';
+  }
+
+  function renderFigs(d) {
+    const figs = (d.figures || []);
+    $('figs').innerHTML = figs.length
+      ? figs.map(f => `<figure style="margin:0"><img src="${esc(f.src)}" alt="${esc(f.label)}" loading="lazy"><figcaption class="note">${esc(f.label)}</figcaption></figure>`).join('')
+      : '<div class="empty">Figures appear here after the run is pulled.</div>';
+  }
+
+  function renderGallery(d) {
+    const imgs = d.predictions || [];
+    $('gallery').innerHTML = imgs.length
+      ? imgs.map(p => `<a href="${esc(p.src)}" target="_blank"><img src="${esc(p.src)}" alt="${esc(p.name)}" loading="lazy"></a>`).join('')
+      : '<div class="empty">No prediction images yet.</div>';
+  }
+
+  function render(d) {
+    const status = (d.kernel && d.kernel.status) || (d.progress && d.progress.status) || 'unknown';
+    $('status').className = 'pill ' + String(status).toLowerCase();
+    $('status').textContent = status;
+    $('subtitle').textContent = `Model ${d.model || 'YOLO26'} · ${d.imgsz ? d.imgsz + 'px' : ''} · ${d.dataset ? d.dataset.total_images + ' images' : ''}`;
+    $('updated').textContent = 'Data generated ' + (d.generated_at || 'unknown');
+    renderKpis(d); renderProgress(d); renderClassTable(d); renderCharts(d);
+    renderEpochTable(d); renderDataset(d); renderFigs(d); renderGallery(d);
+  }
+
+  function reloadData() {
+    const old = document.getElementById('datajs');
+    const s = document.createElement('script');
+    s.id = 'datajs';
+    s.src = 'data.js?t=' + Date.now();
+    s.onload = () => { if (window.DASHBOARD_DATA) render(window.DASHBOARD_DATA); if (old) old.remove(); };
+    document.body.appendChild(s);
+  }
+
+  $('theme').addEventListener('click', () => {
+    const root = document.documentElement;
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    if (window.DASHBOARD_DATA) render(window.DASHBOARD_DATA);
+  });
+
+  if (window.DASHBOARD_DATA) render(window.DASHBOARD_DATA);
+  setInterval(reloadData, 30000);
+})();
+</script>
+</body>
+</html>

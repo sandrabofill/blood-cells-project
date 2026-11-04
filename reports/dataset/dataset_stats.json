@@ -1,0 +1,129 @@
+{
+  "dataset": "TXL-PBC (local copy)",
+  "classes": [
+    "WBC",
+    "RBC",
+    "Platelets"
+  ],
+  "total_images": 1260,
+  "total_cells": 18143,
+  "splits": {
+    "train": {
+      "images": 882,
+      "cells": 12510,
+      "empty_images": 0,
+      "class_counts": {
+        "WBC": 908,
+        "RBC": 11220,
+        "Platelets": 382
+      }
+    },
+    "val": {
+      "images": 252,
+      "cells": 3752,
+      "empty_images": 0,
+      "class_counts": {
+        "WBC": 257,
+        "RBC": 3383,
+        "Platelets": 112
+      }
+    },
+    "test": {
+      "images": 126,
+      "cells": 1881,
+      "empty_images": 0,
+      "class_counts": {
+        "WBC": 133,
+        "RBC": 1699,
+        "Platelets": 49
+      }
+    }
+  },
+  "total_class_counts": {
+    "WBC": 1298,
+    "RBC": 16302,
+    "Platelets": 543
+  },
+  "class_share": {
+    "WBC": 0.0715,
+    "RBC": 0.8985,
+    "Platelets": 0.0299
+  },
+  "image_sizes": {
+    "575x575": 500,
+    "360x363": 486,
+    "640x480": 160,
+    "256x256": 100,
+    "366x369": 14
+  },
+  "image_modes": {
+    "RGB": 1160,
+    "RGBA": 100
+  },
+  "file_formats_detected": {
+    "JPEG": 1160,
+    "PNG": 100
+  },
+  "cells_per_image_histogram": {
+    "4": 3,
+    "5": 10,
+    "6": 15,
+    "7": 22,
+    "8": 43,
+    "9": 67,
+    "10": 88,
+    "11": 101,
+    "12": 126,
+    "13": 139,
+    "14": 117,
+    "15": 94,
+    "16": 84,
+    "17": 72,
+    "18": 48,
+    "19": 34,
+    "20": 39,
+    "21": 43,
+    "22": 29,
+    "23": 28,
+    "24": 23,
+    "25": 9,
+    "26": 11,
+    "27": 5,
+    "28": 5,
+    "29": 2,
+    "30": 1,
+    "31": 1,
+    "32": 1
+  },
+  "box_stats": {
+    "WBC": {
+      "count": 1298,
+      "width_mean": 0.3984498582434515,
+      "height_mean": 0.41745367334360567,
+      "width_median": 0.391667,
+      "height_median": 0.4124025,
+      "width_min": 0.128125,
+      "width_max": 0.678261
+    },
+    "RBC": {
+      "count": 16302,
+      "width_mean": 0.20432290185253343,
+      "height_mean": 0.21441187553674393,
+      "width_median": 0.208333,
+      "height_median": 0.217631,
+      "width_min": 0.06875,
+      "width_max": 0.554783
+    },
+    "Platelets": {
+      "count": 543,
+      "width_mean": 0.08168543830570903,
+      "height_mean": 0.08639611233885819,
+      "width_median": 0.080556,
+      "height_median": 0.083333,
+      "width_min": 0.025,
+      "width_max": 0.194783
+    }
+  },
+  "problems": [],
+  "problem_count": 0
+}

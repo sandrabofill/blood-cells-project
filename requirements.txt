@@ -1,0 +1,8 @@
+# Local side only: dataset checks, Kaggle orchestration and report building.
+# Training runs on Kaggle, where kaggle/train_yolo26.py installs ultralytics==8.4.183.
+kaggle>=2.2
+numpy
+matplotlib
+pillow
+pyyaml
+six
