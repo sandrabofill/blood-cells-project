@@ -1,5 +1,9 @@
 # Blood cell detection with YOLO26
 
+> **Disclaimer:** This is a student project for a master's course, for educational purposes
+> only. It is not a medical device and has not been validated for clinical use or diagnosis.
+> Do not use its output to make medical decisions.
+
 Fine-tunes a pretrained **YOLO26** detector to locate and classify cells in blood smear
 images. The three classes are **WBC** (white blood cells), **RBC** (red blood cells) and
 **Platelets**. Training runs on a **Kaggle GPU** (T4), and results are monitored through a
