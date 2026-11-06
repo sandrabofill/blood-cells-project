@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blood Cell Detector</title>
+<style>
+  :root {
+    --bg: #f5f7fb; --card: #ffffff; --ink: #1d2330; --muted: #667085; --line: #e1e5ee;
+    --wbc: #2563eb; --rbc: #dc2626; --plt: #16a34a; --accent: #2b6cb0;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1420; --card: #171e2e; --ink: #e6eaf2; --muted: #98a2b3; --line: #293247;
+      --wbc: #60a5fa; --rbc: #f87171; --plt: #4ade80; --accent: #7aa7e0; color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.45 -apple-system, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--ink); }
+  header { padding: 18px 24px; background: var(--card); border-bottom: 1px solid var(--line); }
+  h1 { margin: 0; font-size: 20px; }
+  .muted { color: var(--muted); }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 18px; padding: 20px 24px 40px; max-width: 1280px; margin: 0 auto; }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; min-width: 0; }
+  .stage { position: relative; display: flex; justify-content: center; align-items: center; min-height: 360px; background: #0b0f17; border-radius: 10px; overflow: hidden; }
+  .stage canvas { max-width: 100%; height: auto; display: block; }
+  .placeholder { color: #98a2b3; padding: 40px; text-align: center; }
+  label.upload { display: inline-block; padding: 9px 14px; background: var(--accent); color: #fff; border-radius: 8px; cursor: pointer; font-weight: 600; }
+  input[type="file"] { display: none; }
+  .row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .slider-wrap { margin-top: 6px; }
+  input[type="range"] { width: 100%; }
+  .value { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .counts { display: grid; gap: 10px; margin-top: 12px; }
+  .count { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; }
+  .count b { font-size: 22px; font-variant-numeric: tabular-nums; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px; font-size: 13px; }
+  .error { color: #b91c1c; margin-top: 10px; }
+  .note { font-size: 12px; color: var(--muted); margin-top: 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 10px; }
+  th, td { text-align: right; padding: 5px 6px; border-bottom: 1px solid var(--line); }
+  th:first-child, td:first-child { text-align: left; }
+  .scroll { max-height: 260px; overflow-y: auto; }
+  .spinner { color: var(--muted); }
+  .types { display: grid; gap: 6px; margin-top: 10px; }
+  .type-row { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; font-size: 13px; }
+  .type-row b { font-variant-numeric: tabular-nums; }
+  .bar { grid-column: 1 / -1; height: 5px; border-radius: 3px; background: var(--line); overflow: hidden; }
+  .bar > span { display: block; height: 100%; background: var(--wbc); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Blood cell detector</h1>
+  <div class="muted" id="model-info">Loading model…</div>
+</header>
+
+<main>
+  <section class="card">
+    <div class="row" style="justify-content: space-between; margin-bottom: 12px">
+      <label class="upload">Choose image<input id="file" type="file" accept="image/*"></label>
+      <span class="spinner" id="status"></span>
+    </div>
+    <div class="stage" id="stage">
+      <div class="placeholder" id="placeholder">Upload a blood smear image to detect and classify cells.</div>
+      <canvas id="canvas" hidden></canvas>
+    </div>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--wbc)"></span>WBC</span>
+      <span><span class="dot" style="background:var(--rbc)"></span>RBC</span>
+      <span><span class="dot" style="background:var(--plt)"></span>Platelets</span>
+    </div>
+    <div class="error" id="error" hidden></div>
+  </section>
+
+  <aside class="card">
+    <h2 style="font-size:16px; margin:0 0 10px">Confidence threshold</h2>
+    <div class="row" style="justify-content: space-between">
+      <span class="muted">Minimum confidence</span>
+      <span class="value" id="conf-value">0.25</span>
+    </div>
+    <div class="slider-wrap">
+      <input id="conf" type="range" min="0.05" max="0.95" step="0.01" value="0.25">
+    </div>
+    <div class="note">Boxes and counts update as you move the slider. Default is 0.25.</div>
+
+    <h2 style="font-size:16px; margin:20px 0 0">Cells counted</h2>
+    <div class="counts">
+      <div class="count"><span><span class="dot" style="background:var(--wbc)"></span>WBC</span><b id="n-wbc">–</b></div>
+      <div class="count"><span><span class="dot" style="background:var(--rbc)"></span>RBC</span><b id="n-rbc">–</b></div>
+      <div class="count"><span><span class="dot" style="background:var(--plt)"></span>Platelets</span><b id="n-plt">–</b></div>
+      <div class="count"><span>Total</span><b id="n-total">–</b></div>
+    </div>
+
+    <h2 style="font-size:16px; margin:20px 0 0">WBC types</h2>
+    <div class="types" id="types"><div class="muted">No image yet.</div></div>
+    <div class="note" id="types-note">Each detected WBC is cropped and classified by a second model trained on BloodMNIST.</div>
+
+    <h2 style="font-size:16px; margin:20px 0 0">Detections</h2>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Class</th><th>Det. conf.</th><th>WBC type (conf.)</th></tr></thead>
+        <tbody id="rows"><tr><td colspan="3" class="muted">No image yet.</td></tr></tbody>
+      </table>
+    </div>
+  </aside>
+</main>
+
+<script>
+(function () {
+  const COLORS = { WBC: '#2563eb', RBC: '#dc2626', Platelets: '#16a34a' };
+  const $ = (id) => document.getElementById(id);
+  const canvas = $('canvas');
+  const ctx = canvas.getContext('2d');
+  let image = null;        // HTMLImageElement of the uploaded picture
+  let detections = [];     // all candidates from the server (above the server floor)
+  let minConf = 0.05;
+  let wbcTypes = [];       // class names of the WBC-type classifier (empty if it is not loaded)
+  const pretty = (t) => t.replace(/_/g, ' ');
+  const esc = (t) => String(t).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  function setStatus(text) { $('status').textContent = text || ''; }
+  function showError(msg) {
+    const el = $('error');
+    el.textContent = msg || '';
+    el.hidden = !msg;
+  }
+
+  // Redraw the picture, boxes and counts for the current threshold
+  function render() {
+    if (!image) return;
+    const threshold = parseFloat($('conf').value);
+    $('conf-value').textContent = threshold.toFixed(2);
+
+    canvas.width = image.naturalWidth;
+    canvas.height = image.naturalHeight;
+    ctx.drawImage(image, 0, 0);
+
+    const lineWidth = Math.max(2, Math.round(Math.max(canvas.width, canvas.height) / 300));
+    const kept = detections.filter(d => d.confidence >= threshold);
+    const counts = { WBC: 0, RBC: 0, Platelets: 0 };
+
+    ctx.font = `${Math.max(12, Math.round(canvas.width / 50))}px sans-serif`;
+    ctx.textBaseline = 'top';
+    for (const d of kept) {
+      const color = COLORS[d.class] || '#fff';
+      const [x1, y1, x2, y2] = d.box;
+      ctx.strokeStyle = color;
+      ctx.lineWidth = lineWidth;
+      ctx.strokeRect(x1, y1, x2 - x1, y2 - y1);
+      const label = d.wbc_type ? `${pretty(d.wbc_type)} ${d.wbc_type_confidence.toFixed(2)}`
+                               : `${d.class} ${d.confidence.toFixed(2)}`;
+      const tw = ctx.measureText(label).width + 6;
+      const th = parseInt(ctx.font, 10) + 4;
+      ctx.fillStyle = color;
+      ctx.fillRect(x1, Math.max(0, y1 - th), tw, th);
+      ctx.fillStyle = '#fff';
+      ctx.fillText(label, x1 + 3, Math.max(0, y1 - th) + 2);
+      counts[d.class] = (counts[d.class] || 0) + 1;
+    }
+
+    $('n-wbc').textContent = counts.WBC;
+    $('n-rbc').textContent = counts.RBC;
+    $('n-plt').textContent = counts.Platelets;
+    $('n-total').textContent = kept.length;
+
+    renderTypes(kept.filter(d => d.class === 'WBC'));
+
+    const rows = kept.map(d => `<tr title="box ${d.box.map(v => Math.round(v)).join(', ')}">
+        <td><span class="dot" style="background:${COLORS[d.class] || '#999'}"></span>${esc(d.class)}</td>
+        <td>${d.confidence.toFixed(2)}</td>
+        <td>${d.wbc_type ? `${esc(pretty(d.wbc_type))} (${d.wbc_type_confidence.toFixed(2)})` : '–'}</td></tr>`).join('');
+    $('rows').innerHTML = rows || `<tr><td colspan="3" class="muted">No cells at ${threshold.toFixed(2)} or above.</td></tr>`;
+  }
+
+  // Count per WBC type among the WBC boxes kept at the current threshold
+  function renderTypes(wbcs) {
+    if (!wbcTypes.length) {
+      $('types').innerHTML = '<div class="muted">WBC classifier not loaded (models/resnet18-bloodmnist-wbc.pt missing).</div>';
+      return;
+    }
+    const counts = Object.fromEntries(wbcTypes.map(t => [t, 0]));
+    for (const d of wbcs) if (d.wbc_type) counts[d.wbc_type] = (counts[d.wbc_type] || 0) + 1;
+    const total = wbcs.length;
+    $('types').innerHTML = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([t, n]) => {
+      const pct = total ? Math.round(100 * n / total) : 0;
+      return `<div class="type-row"><span>${esc(pretty(t))}</span><b>${n}${total ? ` <span class="muted" style="font-weight:400">${pct}%</span>` : ''}</b>
+        <div class="bar"><span style="width:${pct}%"></span></div></div>`;
+    }).join('');
+  }
+
+  $('conf').addEventListener('input', render);
+
+  $('file').addEventListener('change', async (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+    showError('');
+    setStatus('Detecting…');
+
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      image = img;
+      $('placeholder').hidden = true;
+      canvas.hidden = false;
+    };
+    img.src = url;
+
+    const form = new FormData();
+    form.append('image', file);
+    try {
+      const res = await fetch('/api/detect', { method: 'POST', body: form });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || `Request failed (${res.status})`);
+      detections = data.detections;
+      minConf = data.min_conf;
+      $('conf').min = minConf;
+      render();
+      setStatus(`${detections.length} candidates`);
+    } catch (err) {
+      detections = [];
+      showError(err.message);
+      setStatus('');
+      render();
+    }
+  });
+
+  fetch('/api/info').then(r => r.json()).then(info => {
+    wbcTypes = info.wbc_types || [];
+    $('model-info').textContent = `Detector ${info.model} · ${info.imgsz}px · classes: ${info.classes.join(', ')}`
+      + (info.wbc_model ? ` · WBC classifier ${info.wbc_model} (${wbcTypes.length} types)` : ' · WBC classifier not loaded');
+    renderTypes([]);
+    $('conf').value = info.default_conf;
+    $('conf-value').textContent = info.default_conf.toFixed(2);
+    minConf = info.min_conf;
+  }).catch(() => { $('model-info').textContent = 'Model unavailable'; });
+})();
+</script>
+</body>
+</html>

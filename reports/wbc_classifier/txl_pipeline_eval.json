@@ -1,0 +1,737 @@
+{
+  "classifier": "resnet18-bloodmnist-wbc.pt",
+  "detector": "best.pt",
+  "detector_conf": 0.25,
+  "excluded_images": {},
+  "test_set": {
+    "n_images": 154,
+    "twin_splits": {
+      "val": 57,
+      "test": 97
+    },
+    "txl_splits": {
+      "train": 114,
+      "val": 26,
+      "test": 14
+    },
+    "true_class_counts": {
+      "monocyte": 30,
+      "basophil": 28,
+      "neutrophil": 31,
+      "eosinophil": 30,
+      "lymphocyte": 35
+    },
+    "images_with_more_than_one_gt_wbc": 6
+  },
+  "tuning_set": {
+    "n_images": 332
+  },
+  "calibration": {
+    "median_rbc_side_px_tuning": 81.4,
+    "window_per_rbc_calibrated": 2.457,
+    "window_per_rbc_in_app": 2.46,
+    "test_images_without_rbc": 0
+  },
+  "results": {
+    "det/app": {
+      "n": 154,
+      "correct": 150,
+      "accuracy": 0.974,
+      "balanced_accuracy": 0.9735,
+      "missed": 0,
+      "per_class": {
+        "basophil": {
+          "support": 28,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "eosinophil": {
+          "support": 30,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "immature_granulocytes": {
+          "support": 0,
+          "recall": null,
+          "precision": 0.0
+        },
+        "lymphocyte": {
+          "support": 35,
+          "recall": 1.0,
+          "precision": 0.9722
+        },
+        "monocyte": {
+          "support": 30,
+          "recall": 0.9,
+          "precision": 1.0
+        },
+        "neutrophil": {
+          "support": 31,
+          "recall": 0.9677,
+          "precision": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "rows_true": [
+          "basophil",
+          "eosinophil",
+          "immature_granulocytes",
+          "lymphocyte",
+          "monocyte",
+          "neutrophil"
+        ],
+        "cols_pred": [
+          "basophil",
+          "eosinophil",
+          "immature_granulocytes",
+          "lymphocyte",
+          "monocyte",
+          "neutrophil",
+          "missed"
+        ],
+        "counts": [
+          [
+            28,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            35,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            1,
+            27,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            30,
+            0
+          ]
+        ]
+      },
+      "description": "pipeline: detector box, RBC-sized window (as in the app)",
+      "accuracy_95ci": [
+        0.9351,
+        0.9899
+      ],
+      "errors": [
+        {
+          "txl_image": "train/25bfdbb4c9165c16937c4b6f5d693a6c.png",
+          "true": "neutrophil",
+          "pred": "immature_granulocytes",
+          "confidence": 0.6212
+        },
+        {
+          "txl_image": "train/2edbd0c092a15e439bdf3f70a946c888.png",
+          "true": "monocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.6933
+        },
+        {
+          "txl_image": "train/457c629589a7553ab18b17b6a57b6394.png",
+          "true": "monocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.9169
+        },
+        {
+          "txl_image": "test/e00d89fd5c8b5d869f50938e1789324e.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.7004
+        }
+      ]
+    },
+    "gt/app": {
+      "n": 154,
+      "correct": 150,
+      "accuracy": 0.974,
+      "balanced_accuracy": 0.9735,
+      "missed": 0,
+      "per_class": {
+        "basophil": {
+          "support": 28,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "eosinophil": {
+          "support": 30,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "immature_granulocytes": {
+          "support": 0,
+          "recall": null,
+          "precision": 0.0
+        },
+        "lymphocyte": {
+          "support": 35,
+          "recall": 1.0,
+          "precision": 0.9722
+        },
+        "monocyte": {
+          "support": 30,
+          "recall": 0.9,
+          "precision": 1.0
+        },
+        "neutrophil": {
+          "support": 31,
+          "recall": 0.9677,
+          "precision": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "rows_true": [
+          "basophil",
+          "eosinophil",
+          "immature_granulocytes",
+          "lymphocyte",
+          "monocyte",
+          "neutrophil"
+        ],
+        "cols_pred": [
+          "basophil",
+          "eosinophil",
+          "immature_granulocytes",
+          "lymphocyte",
+          "monocyte",
+          "neutrophil",
+          "missed"
+        ],
+        "counts": [
+          [
+            28,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            35,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            1,
+            27,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            30,
+            0
+          ]
+        ]
+      },
+      "description": "ground-truth box, RBC-sized window",
+      "accuracy_95ci": [
+        0.9351,
+        0.9899
+      ],
+      "errors": [
+        {
+          "txl_image": "train/25bfdbb4c9165c16937c4b6f5d693a6c.png",
+          "true": "neutrophil",
+          "pred": "immature_granulocytes",
+          "confidence": 0.6162
+        },
+        {
+          "txl_image": "train/2edbd0c092a15e439bdf3f70a946c888.png",
+          "true": "monocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.6528
+        },
+        {
+          "txl_image": "train/457c629589a7553ab18b17b6a57b6394.png",
+          "true": "monocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.9216
+        },
+        {
+          "txl_image": "test/e00d89fd5c8b5d869f50938e1789324e.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.766
+        }
+      ]
+    },
+    "det/box_relative": {
+      "n": 154,
+      "correct": 128,
+      "accuracy": 0.8312,
+      "balanced_accuracy": 0.8366,
+      "missed": 0,
+      "per_class": {
+        "basophil": {
+          "support": 28,
+          "recall": 1.0,
+          "precision": 0.9032
+        },
+        "eosinophil": {
+          "support": 30,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "immature_granulocytes": {
+          "support": 0,
+          "recall": null,
+          "precision": 0.0
+        },
+        "lymphocyte": {
+          "support": 35,
+          "recall": 0.7143,
+          "precision": 0.7143
+        },
+        "monocyte": {
+          "support": 30,
+          "recall": 0.5333,
+          "precision": 0.7273
+        },
+        "neutrophil": {
+          "support": 31,
+          "recall": 0.9355,
+          "precision": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "rows_true": [
+          "basophil",
+          "eosinophil",
+          "immature_granulocytes",
+          "lymphocyte",
+          "monocyte",
+          "neutrophil"
+        ],
+        "cols_pred": [
+          "basophil",
+          "eosinophil",
+          "immature_granulocytes",
+          "lymphocyte",
+          "monocyte",
+          "neutrophil",
+          "missed"
+        ],
+        "counts": [
+          [
+            28,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            2,
+            25,
+            6,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            3,
+            10,
+            16,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            29,
+            0
+          ]
+        ]
+      },
+      "description": "detector box, box-relative window (1.5x box)",
+      "accuracy_95ci": [
+        0.7641,
+        0.8821
+      ],
+      "errors": [
+        {
+          "txl_image": "train/0d4e8b9ed5715c518a1378cc733e05fd.png",
+          "true": "lymphocyte",
+          "pred": "monocyte",
+          "confidence": 0.7571
+        },
+        {
+          "txl_image": "train/110cc07df36956dba50a4c7feef545ed.png",
+          "true": "lymphocyte",
+          "pred": "monocyte",
+          "confidence": 0.9313
+        },
+        {
+          "txl_image": "train/244ff8c4c94c5d78bd0876862f3f9f6d.png",
+          "true": "monocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.9105
+        },
+        {
+          "txl_image": "train/25bfdbb4c9165c16937c4b6f5d693a6c.png",
+          "true": "neutrophil",
+          "pred": "immature_granulocytes",
+          "confidence": 0.7532
+        },
+        {
+          "txl_image": "train/4462714bf9545e52bf130b7c06b9d935.png",
+          "true": "monocyte",
+          "pred": "basophil",
+          "confidence": 0.5655
+        },
+        {
+          "txl_image": "train/457c629589a7553ab18b17b6a57b6394.png",
+          "true": "monocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.9353
+        },
+        {
+          "txl_image": "train/45c37426232d5f8bb50e0aaaabf1330e.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.9192
+        },
+        {
+          "txl_image": "train/4d967f92175d52f48022ce8bc2ca0f24.png",
+          "true": "lymphocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.9466
+        },
+        {
+          "txl_image": "train/4e3eb5ed49935fb291c0a40c7f618882.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.7653
+        },
+        {
+          "txl_image": "train/5a2899b3019759ffa2cfda0c4d593d20.png",
+          "true": "lymphocyte",
+          "pred": "monocyte",
+          "confidence": 0.8945
+        },
+        {
+          "txl_image": "train/5aa7d31d182a5bf6b7d525c18e27c0f6.png",
+          "true": "monocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.4237
+        },
+        {
+          "txl_image": "train/6bd6ea4350995982848ecda365dd65cf.png",
+          "true": "lymphocyte",
+          "pred": "monocyte",
+          "confidence": 0.5303
+        },
+        {
+          "txl_image": "train/845f9e108ede5703939a406f09874edb.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.4553
+        },
+        {
+          "txl_image": "train/9149dc9901345bb2b22035947fc21473.png",
+          "true": "lymphocyte",
+          "pred": "basophil",
+          "confidence": 0.4191
+        },
+        {
+          "txl_image": "train/955bfda96c125ba78ebd273a0483c10d.png",
+          "true": "neutrophil",
+          "pred": "immature_granulocytes",
+          "confidence": 0.7387
+        },
+        {
+          "txl_image": "train/a9005e1cb0205497845b0abbcbb900bb.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.445
+        },
+        {
+          "txl_image": "train/bfea48a8ad74510c827ed62f1ba02c9e.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.7678
+        },
+        {
+          "txl_image": "train/c59288b13cb45900babfa037e61a6b92.png",
+          "true": "lymphocyte",
+          "pred": "monocyte",
+          "confidence": 0.4511
+        },
+        {
+          "txl_image": "train/c6e2ac6538965d69917a4a051b602a7f.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.5931
+        },
+        {
+          "txl_image": "train/da91475847585269ad107e64e36c2430.png",
+          "true": "lymphocyte",
+          "pred": "basophil",
+          "confidence": 0.91
+        },
+        {
+          "txl_image": "val/557191d782f455e8803695aec55751aa.png",
+          "true": "lymphocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.2986
+        },
+        {
+          "txl_image": "val/65e90756b69452af898c7d2ed656622a.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.4768
+        },
+        {
+          "txl_image": "test/02b9abe156065d8097edfd6afbebcbb3.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.4373
+        },
+        {
+          "txl_image": "test/b491965312b15cdf8255f3a62ed8abc3.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.3098
+        },
+        {
+          "txl_image": "test/c990b73d2aa05b179c85a319af5e20ab.png",
+          "true": "lymphocyte",
+          "pred": "monocyte",
+          "confidence": 0.4986
+        },
+        {
+          "txl_image": "test/e00d89fd5c8b5d869f50938e1789324e.png",
+          "true": "monocyte",
+          "pred": "lymphocyte",
+          "confidence": 0.9702
+        }
+      ]
+    },
+    "det/fixed_200px": {
+      "n": 154,
+      "correct": 152,
+      "accuracy": 0.987,
+      "balanced_accuracy": 0.9869,
+      "missed": 0,
+      "per_class": {
+        "basophil": {
+          "support": 28,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "eosinophil": {
+          "support": 30,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "immature_granulocytes": {
+          "support": 0,
+          "recall": null,
+          "precision": 0.0
+        },
+        "lymphocyte": {
+          "support": 35,
+          "recall": 1.0,
+          "precision": 1.0
+        },
+        "monocyte": {
+          "support": 30,
+          "recall": 0.9667,
+          "precision": 1.0
+        },
+        "neutrophil": {
+          "support": 31,
+          "recall": 0.9677,
+          "precision": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "rows_true": [
+          "basophil",
+          "eosinophil",
+          "immature_granulocytes",
+          "lymphocyte",
+          "monocyte",
+          "neutrophil"
+        ],
+        "cols_pred": [
+          "basophil",
+          "eosinophil",
+          "immature_granulocytes",
+          "lymphocyte",
+          "monocyte",
+          "neutrophil",
+          "missed"
+        ],
+        "counts": [
+          [
+            28,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            35,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            29,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            30,
+            0
+          ]
+        ]
+      },
+      "description": "detector box, fixed 200 px window (PBC magnification only)",
+      "accuracy_95ci": [
+        0.9539,
+        0.9964
+      ],
+      "errors": [
+        {
+          "txl_image": "train/25bfdbb4c9165c16937c4b6f5d693a6c.png",
+          "true": "neutrophil",
+          "pred": "immature_granulocytes",
+          "confidence": 0.6451
+        },
+        {
+          "txl_image": "train/2edbd0c092a15e439bdf3f70a946c888.png",
+          "true": "monocyte",
+          "pred": "immature_granulocytes",
+          "confidence": 0.7214
+        }
+      ]
+    }
+  }
+}

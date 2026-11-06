@@ -1,0 +1,4376 @@
+[
+  {
+    "txl_split": "train",
+    "txl_image": "00565b1186cd5783a39283d119429a10.png",
+    "distance": 3.01,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_06402.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "00fab69fff485b4f92f284d2a581d35d.png",
+    "distance": 2.83,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_01601.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "02b1c70149135b8588ca2dd356daa72e.png",
+    "distance": 3.59,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_00001.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0324a25b7edc5744b0581c12d75314fb.png",
+    "distance": 2.5,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_00642.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "034ea862de59580783b5eda2de849be5.png",
+    "distance": 2.58,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_04861.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "03a547afedd35aa7a8c53a4d84eab635.png",
+    "distance": 2.58,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_02804.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "040a7fc998e65588b43851c58f5eb930.png",
+    "distance": 2.53,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02418.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "04d5a4884f345427b95dbd9ab5d1be83.png",
+    "distance": 2.74,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_02582.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "052cce7836c75e2484b141cd68950e2f.png",
+    "distance": 3.69,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_00774.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "05aaf31b93985e0695a9f659b91931fa.png",
+    "distance": 3.28,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_07574.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "05b5b5f7507455a2942b0c20543d1069.png",
+    "distance": 1.92,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_03536.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "05e836eee85754eeac2dd0c563fd4583.png",
+    "distance": 2.96,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_10827.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "066d8482b50056c395c4b79b651e28c8.png",
+    "distance": 3.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_07185.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "08307eca22c25842ba8607446188cfe3.png",
+    "distance": 3.12,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_00383.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "08dfe8b8140f5915ae670b4db6de8f55.png",
+    "distance": 2.91,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_06851.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "09ef6ef10dc559a0a89330d977138ef3.png",
+    "distance": 1.9,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_01269.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0c0d7fcd1c09546e8eeb062e7a4cc5a0.png",
+    "distance": 3.35,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_05706.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0c28809d61af5eb18272868849a15bf2.png",
+    "distance": 2.74,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_02753.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0d3c1e0afd8c578db9a04f6b0e2fe0de.png",
+    "distance": 2.16,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_03418.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0d414ac3ca01576bbc61e0cd82d2c91f.png",
+    "distance": 3.19,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "basophil",
+    "bm_file": "val_01486.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0d4e8b9ed5715c518a1378cc733e05fd.png",
+    "distance": 2.5,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01784.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0e1badd9c8e1500bbe22d96d0f91a9ac.png",
+    "distance": 3.15,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_00531.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0ef5600d4d7e53eda9bfa2237438583c.png",
+    "distance": 3.39,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_00288.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "0f68902befef5e44ae62cd1af246d9ed.png",
+    "distance": 2.64,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_03141.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "10154aa26da5509fa8bd2b20630b4a76.png",
+    "distance": 3.86,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_03871.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "102ab2f4b8aa50ecb54c64e4f8eb28c8.png",
+    "distance": 3.02,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_05513.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "105a3d2cb907559780d3ae1531f7d3f2.png",
+    "distance": 3.66,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_02272.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1063ddf76e1e5876a95656b742d2f179.png",
+    "distance": 3.36,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_03002.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "110cc07df36956dba50a4c7feef545ed.png",
+    "distance": 2.29,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_00460.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "11f710b54f775075afd52e75e17f03a8.png",
+    "distance": 2.62,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_08131.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "12a2d34380745b0dbe3b59bca847ffb0.png",
+    "distance": 2.39,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07002.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "12fe4657b3165d34a4be961a5e18b2af.png",
+    "distance": 2.39,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_00179.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "13415cfc8d8c5cb9b06376ef91696157.png",
+    "distance": 3.39,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_02312.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "13d52efc33085c2888033b162a76111f.png",
+    "distance": 1.91,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_00824.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "153c00f3ea4d5efd81c84942cb15cc0f.png",
+    "distance": 3.09,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08322.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "15804899aa3c57508530e8f0d03829a9.png",
+    "distance": 2.43,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07034.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "158f8ce3cd645d12aa5452fe182fc551.png",
+    "distance": 2.82,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_02874.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "166e171adb935a2d915e6965809065df.png",
+    "distance": 2.75,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_00542.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "16b79a392bd456e89dcb83edc39a1f56.png",
+    "distance": 2.65,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_02731.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "17f5f1d458c25f8190d9e07b740a7429.png",
+    "distance": 3.18,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_01646.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "17f76c54550b5955ae000081370bb393.png",
+    "distance": 2.87,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_01255.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "189e0fa6119d54339c96a0bdd4870944.png",
+    "distance": 3.64,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_03094.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1915fdc7c09a5592a68a892e588a17db.png",
+    "distance": 3.06,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_03109.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "19977b60a4945539a6ace93d2bea6c27.png",
+    "distance": 2.14,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07070.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1a61d0b0d52e51fb9a8cc5a6e7ca150d.png",
+    "distance": 2.03,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_03318.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1aeb8e122db65081b73768b8a4edfc28.png",
+    "distance": 2.68,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_02000.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1b037690d20c5676b743864400cf3769.png",
+    "distance": 4.23,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_00922.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1b71770f681351ebb6f4e262883f58e0.png",
+    "distance": 2.69,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_04976.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1c0c4e7548f75fe79d72bcc01f041039.png",
+    "distance": 3.28,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_03519.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1de112e3d51f5996912bdfbbf585f27a.png",
+    "distance": 4.05,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_10423.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1e0dc1a59bae539ab33913cf0b7a73e0.png",
+    "distance": 2.84,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04411.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1e1910a20e535e1ca648a5813f9c4dec.png",
+    "distance": 3.21,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_05723.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1f4d2abba51e5616bce595adb008fc5c.png",
+    "distance": 3.04,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_10704.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "1fd7e0c9a85057cebd8982e886b41065.png",
+    "distance": 4.01,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_02296.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2128be0130da5e6b9079767d433b782c.png",
+    "distance": 3.07,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_01078.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "22258853253e5334a137cc9b3a7532fd.png",
+    "distance": 3.44,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_06346.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "227a09430d935871ad5dfa9cb2ad479e.png",
+    "distance": 2.98,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_01433.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "23779c2c33105b09acf5379274c18ba1.png",
+    "distance": 2.94,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_09107.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "244dc623388a53fb94921a0341b71767.png",
+    "distance": 2.46,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_04791.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "244ff8c4c94c5d78bd0876862f3f9f6d.png",
+    "distance": 3.59,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_01683.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "24f8290f7dcd50549c9f39d5648d12a5.png",
+    "distance": 3.86,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_06774.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "25bfdbb4c9165c16937c4b6f5d693a6c.png",
+    "distance": 1.93,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_02982.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "271f90ea634b5a20b809d35bcc2bf478.png",
+    "distance": 3.46,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_00626.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2980c5eccdb05e738d562123c249b46d.png",
+    "distance": 3.26,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_01811.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "29fbb45c8c355690ae3bee231db90b4d.png",
+    "distance": 2.17,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07193.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2a42d5dadf5c5d358fa98e57b52dff88.png",
+    "distance": 2.81,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01001.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2b18cd567b1751b7bff4215bea96f45f.png",
+    "distance": 2.76,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_01209.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2b924b7fe19851c5b46730b5d8c9e4e5.png",
+    "distance": 3.46,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_10747.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2c5255641c9657fdaa057a854f90a1c8.png",
+    "distance": 2.8,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_00303.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2c9f3b45e6775b4abc24bc351c326799.png",
+    "distance": 3.14,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_07970.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2edbd0c092a15e439bdf3f70a946c888.png",
+    "distance": 2.83,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_01360.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2ee9115d01a559968fe1018ab56c2af9.png",
+    "distance": 3.39,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "basophil",
+    "bm_file": "val_00578.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2f36abde850550fe88707032f04fe22f.png",
+    "distance": 2.64,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_00688.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "2fbbd5c6328e5dca8378eaccd231c9b7.png",
+    "distance": 2.93,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_02987.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "303d0f174a0b5c73aec4bac125a75edd.png",
+    "distance": 3.22,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_08998.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "30581cdf41f65660af113d0cfdaeabfd.png",
+    "distance": 2.38,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_04430.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "311ea1fce66d532ba3b7201cf4c46cb1.png",
+    "distance": 2.54,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_00668.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "319edf32cc535bffbc412849d7bc2cf3.png",
+    "distance": 3.03,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_08315.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "31bb11fdbdc2584d9c96afa1a312b9fb.png",
+    "distance": 2.97,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_02563.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "31ee68fe30d55c71af2c0a05414ca343.png",
+    "distance": 3.05,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_05699.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "31ff28bc09545b74b25bbb6b10d95aa9.png",
+    "distance": 3.67,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_11445.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "32506d0383d85d068896e87f703365bd.png",
+    "distance": 3.11,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_07592.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "329ab0ca3b3358ec8c10b42a8c4a387d.png",
+    "distance": 2.57,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_08502.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3333d27bca2c521cbb4d1c603bef34dd.png",
+    "distance": 2.84,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_01132.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "341259b133ce57dd8c50f9901e8b6f51.png",
+    "distance": 2.28,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_01144.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "34f4f9fc8e395ebdb3b7e4ac58464d7e.png",
+    "distance": 2.27,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_01502.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3536f02af10058c6881659bd171e3493.png",
+    "distance": 2.86,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_02530.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3956881b99af578f9c4512a8d846c6be.png",
+    "distance": 2.69,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_06953.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3a8e9852e2455fd881d9f7fd63a2ae12.png",
+    "distance": 2.73,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_04775.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3b0f6561493755dba667f52cc8d68ca4.png",
+    "distance": 3.07,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_00879.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3b2f24652bae5f50a6c68a73b5cc8df8.png",
+    "distance": 2.86,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_01696.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3c88fad4b1cd5021aaa6b4fbeaf3c4a4.png",
+    "distance": 2.74,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_08510.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3cb847b8812e5a0d9a675c9f20ddfec4.png",
+    "distance": 3.01,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_05698.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3ccd4994a73a516db17ee2cfd698c6db.png",
+    "distance": 2.13,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_01304.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3d10e65425bb51819515311214de6b2f.png",
+    "distance": 3.16,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_10730.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "3e0cc1f4fe20517084d91c220923634b.png",
+    "distance": 2.59,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_09948.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "41b205af5fc35a5bade08992bcfba980.png",
+    "distance": 2.81,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_11838.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "41b95a2435d857a2a3e582d164de706d.png",
+    "distance": 3.25,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_00407.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4462714bf9545e52bf130b7c06b9d935.png",
+    "distance": 3.56,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_00173.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "457c629589a7553ab18b17b6a57b6394.png",
+    "distance": 2.73,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_01330.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "45c37426232d5f8bb50e0aaaabf1330e.png",
+    "distance": 3.84,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_01664.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "45d5db973a755321a32a1f339424dbe6.png",
+    "distance": 2.72,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_05089.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "479df4cfa85556eb867a0bd691cda2c6.png",
+    "distance": 2.96,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_07354.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4826b0c9c9555003a9f16e8f5e310582.png",
+    "distance": 2.41,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00715.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "48da33439bf351ffa963ca724d0149e5.png",
+    "distance": 2.72,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_03498.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4a16186855af5dec815d8a5cdcd54619.png",
+    "distance": 2.6,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_09775.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4acbef21d5c755e785619b92a75d75ed.png",
+    "distance": 3.1,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_10437.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4bc4dd2a77225172b8c3c64491df10cc.png",
+    "distance": 3.46,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_05884.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4d8cc35bd5fa585fa3e811180ceda03f.png",
+    "distance": 3.49,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_01792.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4d967f92175d52f48022ce8bc2ca0f24.png",
+    "distance": 2.74,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01893.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4da367a68b1b5f3c92c35e0ed880847e.png",
+    "distance": 2.87,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04343.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4de85912fe8e5a048a24d209659e5ee8.png",
+    "distance": 3.94,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_09526.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4e3eb5ed49935fb291c0a40c7f618882.png",
+    "distance": 4.35,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_01710.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "4e73b95026825ea0a0ed610d79c4a674.png",
+    "distance": 3.47,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_04805.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "50ee52f333ee55e0a5b3af21a07295da.png",
+    "distance": 2.1,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_10200.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "510557c182eb5803b4172fabf7aa957a.png",
+    "distance": 2.74,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_00568.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "511d11191d0b5cf3992d85ace5883556.png",
+    "distance": 2.71,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01380.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "51ab219bbc11555ebfbf5fd5c6259615.png",
+    "distance": 2.64,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_03511.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5260873e01a5520fafb441642846b52e.png",
+    "distance": 3.18,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_01982.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "52dfdbec26c4509f933a49bb5f670bab.png",
+    "distance": 2.49,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_08009.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "547f6a15e96c5f869e5900da2d61a4bc.png",
+    "distance": 3.61,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_04198.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "54ba752499f7544eb245824b2e3e758a.png",
+    "distance": 1.88,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_01408.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "554fc2eca45653989d568896fcf89be4.png",
+    "distance": 2.34,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_05344.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5571a70db655552cb4904d0cc1019bd6.png",
+    "distance": 3.66,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_00123.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5579ea08196351d080b800f6bcc4372b.png",
+    "distance": 2.2,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_09729.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "560ca854d9ed55868220e341315d3801.png",
+    "distance": 2.5,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_11744.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "59956640091758f68c856115e66b94d5.png",
+    "distance": 1.76,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_03823.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "59e541e64a86547c84c8bc9efa94d1db.png",
+    "distance": 3.02,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_01288.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5a088493cf9b5fdcaf0d5c064b3ac617.png",
+    "distance": 3.11,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04966.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5a2899b3019759ffa2cfda0c4d593d20.png",
+    "distance": 2.12,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00620.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5a7e798c39bd5b3197f745d126d87ae2.png",
+    "distance": 2.65,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_10485.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5a88d81e785851d5a4feb8d4b05a5016.png",
+    "distance": 2.05,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_06781.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5aa7d31d182a5bf6b7d525c18e27c0f6.png",
+    "distance": 3.17,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_00904.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5ac4ce709dc8532b8d75f78b561c95b2.png",
+    "distance": 3.12,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_10373.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5bc04c09a71151e7b651a3013396765c.png",
+    "distance": 2.14,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_00812.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5c1e4d3272be5180984ce4d47799f29c.png",
+    "distance": 2.39,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_03815.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5cdf96cd2c5d55b2a31346b596edeec1.png",
+    "distance": 2.83,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_02013.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5d6d61c8086a53bd891e789c27306237.png",
+    "distance": 4.5,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_04042.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5dc114a89b715f199eec471985d29c89.png",
+    "distance": 4.68,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "basophil",
+    "bm_file": "val_00253.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5e56c78a29a95ead95405b5dd44c78fa.png",
+    "distance": 2.69,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_11076.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5ea04a1acc7b56238b53aff59f0fd397.png",
+    "distance": 3.7,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_01619.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5ecb4f7a1f345acf89db717997e3ec13.png",
+    "distance": 2.67,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_01920.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "5ff107bcf19d5ec3851b10cfa3661444.png",
+    "distance": 3.92,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "basophil",
+    "bm_file": "val_00703.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "60e04d64004b582f97c56425b26fa2a2.png",
+    "distance": 1.95,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_09926.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "61867264ba035645a478e86700ddb92e.png",
+    "distance": 3.23,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_02853.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "622e54d40f5e516bb9ceb0bfd5e23bbc.png",
+    "distance": 2.75,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_07377.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6332d67aba2e55b181887e75aa71b362.png",
+    "distance": 3.56,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "basophil",
+    "bm_file": "val_00201.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "638a62ab48df5e4b836add1b2809a97d.png",
+    "distance": 2.81,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_07567.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "641e132ec17057e3a0dc8b5dfbe68c10.png",
+    "distance": 3.61,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_02966.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "64865465f4c753968d7ee0b07e1fa647.png",
+    "distance": 2.37,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_01559.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6488d23a8521552d873d2b157187bfaa.png",
+    "distance": 3.58,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_06192.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "64e7e1b30dd052e4acc76ffc66edb6a4.png",
+    "distance": 3.39,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_02169.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "65714677c1c950738a54b383acea14b9.png",
+    "distance": 2.57,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_09819.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "65a71d90f3df531c8a5e7770aab38ba7.png",
+    "distance": 2.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_10846.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "66e55fd4f84f5f7796a31f87f00856b1.png",
+    "distance": 2.42,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_02318.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6948572233855838a22671400fc1e0e4.png",
+    "distance": 1.93,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07326.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6bd6ea4350995982848ecda365dd65cf.png",
+    "distance": 2.39,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01298.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6cb47717caaf5548b65b0f80449101f4.png",
+    "distance": 3.29,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_07170.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6d1609d6393b540c90af0607e769bfbf.png",
+    "distance": 2.61,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_05057.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6d6541ab0bfc5a909456f55455794987.png",
+    "distance": 2.43,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_01545.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6d6f1f8b2df85248982d2399814ba16b.png",
+    "distance": 2.34,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_00015.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6dafb0e2dd745e6eaf48adf4be4dd031.png",
+    "distance": 3.35,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_01442.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6e4996fd7c2d5c96a110384a8e363375.png",
+    "distance": 4.12,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_06095.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6f7a5b0229e45d6d825aaba95f96d112.png",
+    "distance": 2.81,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_02263.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "6fd3789710685f44855e5339bd3b48d0.png",
+    "distance": 2.38,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_02005.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "717f22622aa45d59b233de63de7b1ac8.png",
+    "distance": 2.39,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_01413.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7403ffaac0a7560e937134fff64b363c.png",
+    "distance": 3.42,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_01399.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7473f92aea9f5cde8b9d975e319a2c51.png",
+    "distance": 3.09,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_01916.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "74bbae6494ce5bb787be980d68d440b8.png",
+    "distance": 3.32,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_09973.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "755658968a5e51fd89ace8b1a8a315c4.png",
+    "distance": 2.57,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_00187.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "76d511a2fccf5bedab12dac8c4b93a46.png",
+    "distance": 3.94,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_07731.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "76ea35be16da54b6968bf2da80118fbf.png",
+    "distance": 2.84,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_05220.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "76f1a646674f52d9a9c17df24ba5de8c.png",
+    "distance": 1.82,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_04256.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7778e19963a55008baa866b8762967c6.png",
+    "distance": 2.28,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_11711.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7790329c133d55cab4efa466a3a87f95.png",
+    "distance": 2.55,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_01862.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "77cbd8b1df5e5872a16bad4ded8a9a20.png",
+    "distance": 2.57,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_01072.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "77e72a43f25b513bb6b94ff41513cfc3.png",
+    "distance": 2.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_08688.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7840c76665a15e1db710ffe664d27677.png",
+    "distance": 2.98,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_01339.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "797d02a356f150aab3b4fcc46aca1171.png",
+    "distance": 2.11,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_07152.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "79ee7f4ac31753779c2fc4be0559eac3.png",
+    "distance": 3.11,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_03977.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7a78332281a65bdab5523f9d3a10eddf.png",
+    "distance": 3.38,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_00784.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7a871e3aeb7b5357b1357250f29e091b.png",
+    "distance": 2.6,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_05743.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7afa3974c44b50d189f3a15bc6bd69fa.png",
+    "distance": 3.34,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_06087.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7b1c77fffcbd59409112b3ec2e03e1c8.png",
+    "distance": 2.63,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_09413.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7b4648dc227f5b43a6fc0a2a7269d329.png",
+    "distance": 3.26,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_00189.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7bf2cd7793b55069895434c4b01adefd.png",
+    "distance": 3.61,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_03096.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7ccb7adfa7335c2caff2079a5e7795e4.png",
+    "distance": 2.98,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_02183.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "7fa7b3c88b5a566f80944d8735f5def1.png",
+    "distance": 3.12,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_10733.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "808f9b41758e555999f9c6af5e6aa131.png",
+    "distance": 3.28,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_10154.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "80aa9aa6bff75873b3c5ac1441fc0616.png",
+    "distance": 3.6,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_09998.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "81d7a25cf55258b08d1ba536f3c307b1.png",
+    "distance": 2.25,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_00807.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "824db8d8b9f1531d82f6f625746e34f5.png",
+    "distance": 2.16,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01895.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "84139540faeb5007a8e250c7ac9545cc.png",
+    "distance": 2.65,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_01812.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "845f9e108ede5703939a406f09874edb.png",
+    "distance": 3.74,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_01789.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "84db8efd38965a6d897899fc9b39dbce.png",
+    "distance": 1.95,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07439.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "855a553ed35553a69d5fb7eca8e33f54.png",
+    "distance": 2.92,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_02532.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "87ceaea37ef55f178275c75ed05a45eb.png",
+    "distance": 2.66,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_02256.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "8814c33f5ded51adb7dd44a869437fac.png",
+    "distance": 2.77,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_11054.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "8817778234105625b80b1a9ffca411d7.png",
+    "distance": 3.57,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02302.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "8866c514795555b6bf9cb1f174253c58.png",
+    "distance": 3.51,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_00945.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "88a794ea3332511886e4b18d0d4e5b07.png",
+    "distance": 2.67,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_01420.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "88cf612be72351268e77e2ba2156ddbb.png",
+    "distance": 2.94,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_01103.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "89e8d1ea9a1450119d5e9b04fc61b17b.png",
+    "distance": 3.5,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_02843.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "8e5690d40c215272ba1d13a94ac9d849.png",
+    "distance": 2.24,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_09145.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "8febde3650e95e3a88f963e8085bc231.png",
+    "distance": 2.49,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_02958.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "90ebc0e4cd2457959729d43c5d655b1c.png",
+    "distance": 2.44,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04058.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "910f6f5e0caf5d89b3d63f2a901f0916.png",
+    "distance": 3.91,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "basophil",
+    "bm_file": "val_01681.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "9149dc9901345bb2b22035947fc21473.png",
+    "distance": 1.82,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_02924.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "9337f342b8295fb2a2048b773a1bdc35.png",
+    "distance": 3.56,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_04500.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "941a7cc0e7d55ce3b470f90ee1583ce5.png",
+    "distance": 3.14,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_09337.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "955bfda96c125ba78ebd273a0483c10d.png",
+    "distance": 2.43,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_01067.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "95d0026140345707b6d28a7cb538b070.png",
+    "distance": 3.44,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_05832.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "968e998cf2fb5ffc825d23da5604a278.png",
+    "distance": 3.35,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_00499.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "976b3d210bde5b5b99a8eb67fdf2bb93.png",
+    "distance": 2.87,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_01788.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "980eba0ed1f25e28ba87c497530757be.png",
+    "distance": 2.63,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_11132.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "99673a09e8f2522896da4c4bcff3672d.png",
+    "distance": 2.66,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_06786.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "99e72be243ba5f12aa2ba4498278a088.png",
+    "distance": 3.2,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_03008.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "9a1c1be8a7b956d38f55e135282ebd6b.png",
+    "distance": 3.64,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_03018.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "9b58c54c6d4356dcbd8e031b3b7ed4b4.png",
+    "distance": 2.53,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08213.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "9d1c115e087455e38274ee0369a00301.png",
+    "distance": 3.79,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_11823.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "9f1c39c4e9eb54438bef8e36efd3587f.png",
+    "distance": 4.13,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_11453.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a14070242b3a5fb998bcb6ca33a78900.png",
+    "distance": 3.12,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_08799.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a1886a6d234454f0988654bf578de7c6.png",
+    "distance": 2.91,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_00562.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a1890cb8a92e56cb8654ac95b9adb494.png",
+    "distance": 3.25,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_00535.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a1f5fae233bf5bb99213d87babb3bb6e.png",
+    "distance": 3.29,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_00103.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a278b6efeb8e50d197520e4e391e27b1.png",
+    "distance": 3.93,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_00302.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a33d0480f30a57e5b9201cf278a1e7aa.png",
+    "distance": 2.38,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_09922.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a38507bdc2c157b29302a665d17096a2.png",
+    "distance": 3.51,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_10109.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a3be0b630e245569b1adc3898c3deb6e.png",
+    "distance": 3.57,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_01457.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a5842f0e2950532383c8e233d5c523b6.png",
+    "distance": 3.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_07011.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a587c9de0010534091bfa7dffa9b16d4.png",
+    "distance": 2.13,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_03633.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a5eb8534f26f5113bd04e54e4c13b65e.png",
+    "distance": 2.86,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02625.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a81f2801058554b5a7bafcf298ce0207.png",
+    "distance": 1.76,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_04774.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a84aa6f67ec954e58f4f89ecb6b04ef2.png",
+    "distance": 1.91,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_03430.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "a9005e1cb0205497845b0abbcbb900bb.png",
+    "distance": 3.79,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_01913.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ad358ac80e2d54549f05750b22458931.png",
+    "distance": 3.67,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_05673.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "aedd63710cdc5a32b608a2d13c1de11a.png",
+    "distance": 2.58,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_05927.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "af37c00f3f5a53ac841a1dfa1592e015.png",
+    "distance": 2.81,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_02365.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "af385aa746c758469a8a19746e0ae3fe.png",
+    "distance": 2.81,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_01231.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "afee70d5532652beb1ca56f99262606d.png",
+    "distance": 2.74,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_08136.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "b3b6bdfcb7b15af59d54ea8f24aab0c4.png",
+    "distance": 3.44,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_10213.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "b60e204977cd574bbe062b5a1aeab06c.png",
+    "distance": 3.14,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_10407.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "b704b98f7b41557a995e1cbbdd99b05c.png",
+    "distance": 3.11,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_08372.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "b7577a90a22c5ec995e95918aa3c060f.png",
+    "distance": 2.64,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_00713.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "b989cca7c8d05e2a950c7711ac489e19.png",
+    "distance": 4.09,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02581.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "b9d0813edca75f56b1b4a4635b90b49b.png",
+    "distance": 3.0,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_09038.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "bb330f47ae735676bc20a3450a32f6fe.png",
+    "distance": 3.04,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_07122.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "bb429f781f5e5cb8a1a1bdbdbf18d448.png",
+    "distance": 3.02,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_02175.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "bd10935638365dfd9c7e3f7c65c362b8.png",
+    "distance": 3.21,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_08759.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "be08fb6172725524b85b2e48258ff7a3.png",
+    "distance": 2.92,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_06084.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "be6df79d97c15916b69b0ad7f7b5a494.png",
+    "distance": 2.51,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_06200.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "bf60d462e21850a4b6725ba7cc1e3f38.png",
+    "distance": 2.79,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02141.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "bfd40afeb8c85467afa92f9c4f4ccb20.png",
+    "distance": 3.06,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_03804.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "bfea48a8ad74510c827ed62f1ba02c9e.png",
+    "distance": 3.74,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_01695.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c0043cf8bcf155c59b095efe30c9eb69.png",
+    "distance": 1.93,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_01027.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c0a5815c478554678a80f428c1a257f8.png",
+    "distance": 2.84,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_07751.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c1380dbc4db4549f86e19f4f823f82a4.png",
+    "distance": 2.91,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_01084.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c1ec7d6dab875ae6a53ab3ca1a4ae355.png",
+    "distance": 2.36,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_01689.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c22c650c6d9a505cb55de8b010aee77f.png",
+    "distance": 2.62,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_06272.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c272cc7567a355eca76263fc53de25cc.png",
+    "distance": 2.94,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_11703.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c2e11faed5405722bad57c19c84b68a0.png",
+    "distance": 2.58,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_01713.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c2eb55e6816856df9b4d3b2c767f8b90.png",
+    "distance": 2.28,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_00781.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c45ba4a59f0c55ac9dffe3662f09788b.png",
+    "distance": 2.0,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01712.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c59288b13cb45900babfa037e61a6b92.png",
+    "distance": 2.45,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_02174.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c6e2ac6538965d69917a4a051b602a7f.png",
+    "distance": 2.82,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_01854.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c7465e5e71da55cabec381c233955a32.png",
+    "distance": 3.9,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_05933.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c762a607bbaa52df9257e8ad212cb84b.png",
+    "distance": 3.46,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_05202.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c84b701a305e548ca8b0344ff6359985.png",
+    "distance": 3.5,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_00678.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c8b84e2e24d358089aad5666037d9b14.png",
+    "distance": 2.17,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_10344.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c8eb3174e284571b82f1a6f57be5002d.png",
+    "distance": 3.34,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_02225.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "c9fcd389ceb358b8913b2a869426a8cd.png",
+    "distance": 3.45,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_06397.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ca0e8468626f5c76b0ef61b720a97bda.png",
+    "distance": 3.63,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_00749.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "cad009f4f3bc56f7887c342dcb1c4b00.png",
+    "distance": 2.17,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_11781.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "cbe677401a7359c6901ee151d7f17bc2.png",
+    "distance": 2.44,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_00050.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "cc0a05479ffb5449ba83db1d574a14ee.png",
+    "distance": 3.77,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_01852.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ccae48ac58cf587abd9861880091855b.png",
+    "distance": 2.13,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_00309.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ce580c7043185399ae02381f3a410138.png",
+    "distance": 2.31,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_00730.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ceb7d69b3aab5668b5b7acc3a6c6ce60.png",
+    "distance": 3.22,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02753.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d015db76e04d52fcb612f9cfc2430feb.png",
+    "distance": 2.86,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04934.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d01ad376285155d4840bb7fbbec63e2a.png",
+    "distance": 3.55,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_05052.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d11d77fcc2065c3f8a44b8755ecea2b3.png",
+    "distance": 4.38,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_00998.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d1a0ab8bfcb956ac96606dbba8470ac8.png",
+    "distance": 3.06,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_07351.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d72a30d6a56753afb1bf04ecf8a3f6ef.png",
+    "distance": 2.57,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_04918.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d7d341c4de01513685e5e98a70133338.png",
+    "distance": 2.26,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07925.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d7d96cc215515b1ab2462c32c3d92fb7.png",
+    "distance": 2.36,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_04190.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d84f4274555a5ec18859c6ab002c9d47.png",
+    "distance": 3.5,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02198.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d87cac75f72e5614b1cbed610eb10054.png",
+    "distance": 3.24,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_03559.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d8c6aa4fc1ea5bd18f6c3c8eaa2511d2.png",
+    "distance": 2.91,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_03520.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "d903841935c95130b4c9ccd2b0b60314.png",
+    "distance": 2.12,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_10888.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "da91475847585269ad107e64e36c2430.png",
+    "distance": 2.11,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01236.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "db0a1793e20555afb4efcb76afa82149.png",
+    "distance": 4.06,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02451.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "db9602d4d6d35957a8c37a3f8eb25725.png",
+    "distance": 3.14,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_09222.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "de3e6d22573c51a298eb4a9e6790fbbe.png",
+    "distance": 2.42,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_01126.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "deb404c164be59ebae9154536d71a55f.png",
+    "distance": 3.1,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_11555.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "df7a8fd545515acaa00bdc4ddfa55cd2.png",
+    "distance": 2.56,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00231.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "df7ce5cdfa38508d8300a4e8a4676795.png",
+    "distance": 2.64,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02706.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e0f9dbe8b0355abfa75ffc8950e5349b.png",
+    "distance": 3.34,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_00624.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e24bc99ac89457c382c3cdc4621305e7.png",
+    "distance": 3.43,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_06342.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e25bc64ff6d6529aaa4803ec52e87b62.png",
+    "distance": 3.03,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_00605.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e2d600e2a5455345be3d98532a8c4995.png",
+    "distance": 2.51,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00208.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e404a9596e57503fb50ed92d3384a62a.png",
+    "distance": 2.23,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_02870.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e4eefa4c0a255bc3b36a8dd2c075fea9.png",
+    "distance": 3.01,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_00330.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e72d3d74516c5f6999cae616f4863eaa.png",
+    "distance": 3.44,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_01549.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e7352bad0a6b598bb6a7dab5219871c3.png",
+    "distance": 3.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_05954.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e850a29723595b19ac15ef6575172c1f.png",
+    "distance": 1.88,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00790.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e908266bb7d8539688c82f5143ad9f8f.png",
+    "distance": 2.44,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_04629.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "e985b97105ff5564ab7399a579c3bac0.png",
+    "distance": 2.29,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07837.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ea071e022b0055e38ce9e54b7745963f.png",
+    "distance": 2.6,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_08355.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ea63f9c855675ee29d788388d98f41d6.png",
+    "distance": 3.36,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_01817.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "eb71a1c2fbc9542cb054adc4e86db4d4.png",
+    "distance": 2.38,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00629.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ec2abc8a2d0b53cfbeddfb0545ad5d2b.png",
+    "distance": 2.63,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_05338.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ee025a33f33b50deb9b967a63c1d0294.png",
+    "distance": 2.91,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_01164.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ee38beb1e03e538a86ada3a246d6b857.png",
+    "distance": 3.43,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_09980.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ee79ae97a3735789b514f1c2ed8edeed.png",
+    "distance": 3.25,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_01494.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ee7f890e1a8a544ea88402989ce2ff01.png",
+    "distance": 2.89,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_08041.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ef62ed29b2e752a1ac0ac939e4fec265.png",
+    "distance": 1.74,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_08842.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f024d2470f485aaa8a44d8d944497422.png",
+    "distance": 2.6,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_04248.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f056efbe4d1a5398a8dedbff1a5d30ab.png",
+    "distance": 2.38,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_11805.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f0718df1bfee5c02b5f9b848542b765a.png",
+    "distance": 2.75,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_09869.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f1469441b1785acdab70144cadbd42e4.png",
+    "distance": 2.68,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_01450.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f176732e948d5065960f378bd7bf1ff7.png",
+    "distance": 3.55,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_01057.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f2c7a667f3e85d819f1c8e3856932070.png",
+    "distance": 2.5,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_00783.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f386f74debc15f118211c0ef004d1272.png",
+    "distance": 2.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_08875.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f574bae9019e5060bd21f771f5888a80.png",
+    "distance": 2.63,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_00656.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f5973eaef3cc5eb0b8b83d249b212c3e.png",
+    "distance": 4.57,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_04447.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f68d131f429354bf9844b816e1a9308d.png",
+    "distance": 4.02,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_07495.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f86a6212f4d75a0d8770ae052aece11b.png",
+    "distance": 2.28,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_08870.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f921aac5a8ed569891cccaefa1469ba6.png",
+    "distance": 2.84,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08747.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f97ab3f983fe580da54f040adb249dd7.png",
+    "distance": 2.54,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_11293.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "f9f2819bb6b35ab79afb511dab1f4a9a.png",
+    "distance": 4.0,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02197.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "fac23e43876a595bb126c66d4a66469a.png",
+    "distance": 2.39,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07069.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "fac61f63dd595985aa5a2074d7f009e1.png",
+    "distance": 2.59,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_00566.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "fb4717d6ef2c5797901c0bfcdf494b82.png",
+    "distance": 2.43,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_03191.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "fb6bc9963b8d5e3a8a2b319eb6e42433.png",
+    "distance": 3.13,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_01526.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "fd9d80acb85d56e2ac6de7722677e306.png",
+    "distance": 3.9,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_11201.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "fdf2b633e02f5c96bbdf13ea053e6f1b.png",
+    "distance": 3.57,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_03119.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "fe8bba833f1b539591b164be1d7ca23c.png",
+    "distance": 2.21,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_00103.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ff302acfe688577ba3d5da3b6901557e.png",
+    "distance": 3.47,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_00108.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ff64f84619905a779dec6099c37f036c.png",
+    "distance": 3.35,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_10505.png"
+  },
+  {
+    "txl_split": "train",
+    "txl_image": "ffefb97c1c305337957aafc0db40c688.png",
+    "distance": 2.85,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_01698.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "02329f7234bd54e68632dd2eb18be58b.png",
+    "distance": 2.55,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_04076.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "09c1f1ac97395b91b19aa9b9851d010d.png",
+    "distance": 3.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_03441.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "0ac132c270355979b686c0801e558849.png",
+    "distance": 2.78,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_02589.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "0b39a4d6aea6563c8db6d140f649711e.png",
+    "distance": 2.79,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_01519.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "10c5112dfae4533cb9fa8f6f73a49274.png",
+    "distance": 2.36,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_01020.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "15499e2cd5c0530592047d75c8d034c4.png",
+    "distance": 2.21,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_02582.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "16b5a3ba71605dc9b4122e9d8bf4153e.png",
+    "distance": 1.79,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_05592.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "1b2cf1c6657f5076a6dc55a0bdeb4042.png",
+    "distance": 2.93,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04246.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "1b51202520d252809945edc64bc3990e.png",
+    "distance": 2.77,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_11144.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "1e320fa436df51aa8baf34ece0fb14fa.png",
+    "distance": 3.81,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_06937.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "1f32cf8e6268526ca4b17925cf356c52.png",
+    "distance": 3.28,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_08778.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "216c36dfb1b255499c1408b8b27302c6.png",
+    "distance": 2.74,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08116.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "21dae53f8bbc5ab9af2fee9d59b750fe.png",
+    "distance": 2.44,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_02283.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "2391e7eba24f5f99bc54a762b5d236fc.png",
+    "distance": 3.97,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_10586.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "249feb8cf3355d7ca964be752c06b3ef.png",
+    "distance": 3.78,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_07174.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "270526d86a415046bd5c76141c1df28e.png",
+    "distance": 2.62,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_09538.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "2b17a4069fd3531da67253816570208e.png",
+    "distance": 3.3,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "basophil",
+    "bm_file": "val_00867.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "2be4b8d9382b5cb38274acded508cc3f.png",
+    "distance": 2.52,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_00453.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "306f501beb3d5ca39d552dc77165a591.png",
+    "distance": 2.92,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_11401.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "363881bb329c5c969e892aed287dc375.png",
+    "distance": 2.64,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_05554.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "37874c6ea30d5d3f86c11175f830979d.png",
+    "distance": 2.84,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_03715.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "3fa7ef4ebe60526692acb8fcd80b1877.png",
+    "distance": 3.02,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_04871.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "3fe6e90eb148500ca537ba17919ba93e.png",
+    "distance": 2.79,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_00228.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "41891e8580b8513f937b4de5663223b9.png",
+    "distance": 3.36,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_00210.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "42b019e3945c50e4b02c44575b878af8.png",
+    "distance": 3.48,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_01482.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "49219cf15795528da3fbe7fac537bf8b.png",
+    "distance": 3.34,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_00092.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "4c757f86d3a95d1fa3e2d7956716d286.png",
+    "distance": 2.46,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_08046.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "4cb6468e96f05719abfc402ac793347b.png",
+    "distance": 1.88,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_02693.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "4d6e27769a6055e5ad3da3a5ef28edb1.png",
+    "distance": 3.04,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_05225.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "5131b1a7dc2c532c8ca6b8563cd219f5.png",
+    "distance": 2.45,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08303.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "51e92906a1725e8a851a2a084d7ff738.png",
+    "distance": 2.86,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_03507.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "540ee4cb0e2d58ff91327a08006a9959.png",
+    "distance": 3.67,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_02171.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "557191d782f455e8803695aec55751aa.png",
+    "distance": 2.28,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_00269.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "565d05bc02cc5cd884b35781a3f72e97.png",
+    "distance": 2.83,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_10410.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "56b2f0cf72305a0faa077e0eda4a2b48.png",
+    "distance": 4.12,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_07603.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "57081c2a1140584d997d043ee5826bbb.png",
+    "distance": 2.56,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_11623.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "59e28d798e7655ac88d17cd733a2d5f1.png",
+    "distance": 3.6,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_09443.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "5e8354d7bdf8586dab3bc90d6c6590c1.png",
+    "distance": 3.05,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_02215.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "604333d2a10c55a980b23d2fe7ecacb1.png",
+    "distance": 3.18,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "eosinophil",
+    "bm_file": "val_00400.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "6388d685e0a4503cbf9391f9cf829333.png",
+    "distance": 3.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_08402.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "65e90756b69452af898c7d2ed656622a.png",
+    "distance": 3.7,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_00243.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "6a1a56663463574f8703dd57cb04f9ef.png",
+    "distance": 2.92,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_07841.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "6bc4d558f88451fe9c83e6e61283d522.png",
+    "distance": 2.9,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_02388.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "6cae8f09b6555c7aa9c507e8098c6151.png",
+    "distance": 2.56,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_00809.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "6ec9d152c7f95b8aa1b1d6cc27533c12.png",
+    "distance": 2.64,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_04182.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "6f15b520160d516297b86d7710a3f4fe.png",
+    "distance": 4.03,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_02834.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "6f9f2d50b3a253ac818908cd6e0b6dc0.png",
+    "distance": 3.02,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08687.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "725736c0a7ea5b9693dbb031efa3cd23.png",
+    "distance": 2.48,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_03258.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "72ea1e821f795ac78347a91a8cb200a2.png",
+    "distance": 2.33,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_02144.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "75719ac6dd79573d8f0d13e7f7d1a999.png",
+    "distance": 2.89,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08758.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "7ca874e3d01d55f8a1f49e31f038a358.png",
+    "distance": 3.38,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_02251.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "7fd8ff6758c15e4aaef879fe4f60e522.png",
+    "distance": 3.55,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_08678.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "80228a3181be5b2c84f04381bf74bf1d.png",
+    "distance": 2.42,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_01805.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "81e0a9f084f755168436882c1dd721c5.png",
+    "distance": 2.9,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_10230.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "836fa822b5c8511caf9f832b204e4fe8.png",
+    "distance": 2.14,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_03362.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "88b4416006675365b3ee37f4b6e72bc3.png",
+    "distance": 3.0,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_09664.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "8d35476dc83a528e8d52e59a301ef04c.png",
+    "distance": 3.75,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_02607.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "8e3af5cf7fbc5a4d8287c2c52632733c.png",
+    "distance": 2.5,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_02305.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "92b7c5023fcc504fa9f144de0fdeacd7.png",
+    "distance": 2.88,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_03631.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "9627b08be2a454efa69a021877f1f639.png",
+    "distance": 3.66,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_09893.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "964e84c528765ac5b2a7783a1f020c4e.png",
+    "distance": 2.36,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00771.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "974ff330abb75986abf60c462fb8ee03.png",
+    "distance": 3.05,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_06165.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "977029cd42415bbaa309ceb4028a45de.png",
+    "distance": 2.56,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_07693.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "9e296f30518e57a99f9d8135693d5d7c.png",
+    "distance": 1.95,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_05878.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "9e459203b1d05269965bea9afec45e29.png",
+    "distance": 2.82,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_00264.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "a076bf9b3cfb5e02bfee0bec86fcef6d.png",
+    "distance": 2.6,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_01786.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "a4873cc41c535b45ab7bf7f23b48f238.png",
+    "distance": 3.09,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_00674.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "ab14b84c47d25642b0f04054b218a60f.png",
+    "distance": 3.17,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04652.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "ab8633833a1650bd901259608611467f.png",
+    "distance": 1.87,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_03741.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "ad4282bdbc605692a87f9a3b2d55659a.png",
+    "distance": 3.99,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_11395.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "b0c68a23b66d5f209f6eb3348a085e77.png",
+    "distance": 3.75,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_10649.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "b40ffdb28cf45ccd8e61e28debf6cebe.png",
+    "distance": 2.62,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_03098.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "b42f9a04ecc65816abd5ca28fe72abfe.png",
+    "distance": 2.8,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_06994.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "b639cde2972b5e0482620a6c935130b2.png",
+    "distance": 2.2,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_00624.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "b95ec1b66dbb522fbeab255a195648ba.png",
+    "distance": 3.02,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_09879.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "bc5a9b8de75f56ef822f5ec3abe8ed78.png",
+    "distance": 3.72,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_04473.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "bd448a54de0c5879a1f284298bbfc480.png",
+    "distance": 1.95,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_01021.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "be6500451f735d50b51c34d58e0d9bf0.png",
+    "distance": 2.46,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_09638.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "c57c9c68184a5ce7a667a7ebdb8ba011.png",
+    "distance": 2.28,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_00705.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "ca3d399b31bc5dbc8b7a23e631a479be.png",
+    "distance": 2.85,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08063.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "cfb61f4dca29517ba95a7d46a1b7a7f9.png",
+    "distance": 2.87,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08564.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "d15ce0edc9de59ad9a9a4f849e4a9d90.png",
+    "distance": 2.54,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_05660.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "d6d3eeb15930593281397e8a425d2000.png",
+    "distance": 3.1,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_08940.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "d9d8b1c7e9975b4a8d1beb2db1cec904.png",
+    "distance": 3.61,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_02486.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "db21980c772c53d0a3f90fb05ecc017e.png",
+    "distance": 2.82,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_04650.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "db3d630a9fe455e8a6f44dc69ca54db6.png",
+    "distance": 3.21,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_09465.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "dc52c92f49b659af9a6a24708a0bc7e8.png",
+    "distance": 2.56,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_07801.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "dd797bced2625752b3f63e80621b15de.png",
+    "distance": 3.08,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_02423.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "df3fbfea8c8b586f9e49910344511540.png",
+    "distance": 2.85,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_04809.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "e7fdaf4c3b915a329598f9d866356fbd.png",
+    "distance": 3.38,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_09627.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "e9fab89917fd5be3ba6233c32ecddc8f.png",
+    "distance": 3.63,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_04226.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "f38d6f391cc65f2f96a2bf585c858c47.png",
+    "distance": 1.97,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_01175.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "f60a09d5cc435d3f955e75e26edba267.png",
+    "distance": 2.69,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_11657.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "f80084abbf0452539ab29f25c48c776e.png",
+    "distance": 2.64,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_06169.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "f8bdd62a69ee5f24ad805b08c26e52aa.png",
+    "distance": 3.23,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_08309.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "f9a0af64468f57d59055a84f297ef873.png",
+    "distance": 2.92,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_01290.png"
+  },
+  {
+    "txl_split": "val",
+    "txl_image": "fe7fd5d969b15e60a91b4919c1cf7a80.png",
+    "distance": 2.06,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_09619.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "00bb17f0c091599da3f97aeeef49bec6.png",
+    "distance": 2.36,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_05355.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "02b9abe156065d8097edfd6afbebcbb3.png",
+    "distance": 3.85,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "monocyte",
+    "bm_file": "val_01198.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "03967e3a34d05f4583e6d361f2c333a0.png",
+    "distance": 3.13,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_02016.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "03e9e4f8980a5fe78e1069167ff9f3d9.png",
+    "distance": 3.21,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_06812.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "075e5bb41f4256e98bbfb870d6360d33.png",
+    "distance": 2.95,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_09064.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "0a0cae331880504a83a48c7f9e0005cd.png",
+    "distance": 3.28,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_07668.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "1299047edeb15e2581d9680aaa667d5d.png",
+    "distance": 2.9,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_06208.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "23d158d35ff55562ba7bc6ffaeff006d.png",
+    "distance": 2.8,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_00254.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "37ad6d9b03d356f9a0f18cd42009b491.png",
+    "distance": 3.32,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04215.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "3c7a397302c657f9aaa5fa18182f2612.png",
+    "distance": 3.08,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_11688.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "44f9122b2a1b53499b42b4f4ae8d3a3c.png",
+    "distance": 1.8,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_09530.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "45bc2bb9c9bd57688c652db42de77007.png",
+    "distance": 2.34,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00549.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "4a58b26bf2dd5507b5c11a627772c0de.png",
+    "distance": 2.24,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_08476.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "4ca5842286d75b4cbc86846b02b9d3e1.png",
+    "distance": 5.34,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_02501.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "4fc5433e7a4a5ba28bc7415677390f39.png",
+    "distance": 2.42,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "neutrophil",
+    "bm_file": "val_00533.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "53542a7e8f2251008c5879a315ba2e4b.png",
+    "distance": 2.15,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_06290.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "579f9dd49c365f668b1de414493488a2.png",
+    "distance": 1.92,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_03303.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "63ff753a509c59d7896f9515b7851549.png",
+    "distance": 3.21,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_02691.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "66151af4d9d05e9e940a47e4ce1e45cf.png",
+    "distance": 3.31,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_06612.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "6656bf09b2eb5b1bb9cf3615890ff2f1.png",
+    "distance": 4.12,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_00883.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "81803eb0499a5778ba6c3bb36a1e3c8b.png",
+    "distance": 2.49,
+    "matched": true,
+    "bm_split": "val",
+    "bm_class": "lymphocyte",
+    "bm_file": "val_00832.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "846ec3b76cbc5f2d9572e454cfbc589b.png",
+    "distance": 2.53,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_03122.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "9909b83726d35bd9aa8b043e2903456b.png",
+    "distance": 3.76,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_04677.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "9ef5ac081e6d5bb79400670c3458d5cb.png",
+    "distance": 3.52,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_08774.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "9fb5c69771b9542da0396d45ff21c6f7.png",
+    "distance": 2.7,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_00756.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "a7e1433b7e0653d6b572a1198d7a470d.png",
+    "distance": 3.16,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_02745.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "aab3e94d732651b0917cc2c7878b12d5.png",
+    "distance": 3.44,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_04303.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "aaeed4bc7a945f20bffe011b4bd32bfb.png",
+    "distance": 2.3,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_06535.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "af97ac7c36135543a9ea3e2ced4a1e9a.png",
+    "distance": 3.07,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_03027.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "b2f8de57c5505285859cf745cf828bfa.png",
+    "distance": 2.46,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "eosinophil",
+    "bm_file": "test_02997.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "b36330e685525e46b906cbc4ecb2aa8c.png",
+    "distance": 3.27,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_08772.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "b491965312b15cdf8255f3a62ed8abc3.png",
+    "distance": 3.64,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_01359.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "b76e9415e18458dfa1213298f8a38e9d.png",
+    "distance": 3.55,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "basophil",
+    "bm_file": "test_01561.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "ba5ba876194b50d5a3d11f225e3b35ee.png",
+    "distance": 2.85,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_00217.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "be3902bdb5475308b8d023413e119916.png",
+    "distance": 3.61,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_02550.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "c9825c6f2e4d5e9abbbe0c959a41adf4.png",
+    "distance": 2.46,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "monocyte",
+    "bm_file": "train_04119.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "c990b73d2aa05b179c85a319af5e20ab.png",
+    "distance": 2.29,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "lymphocyte",
+    "bm_file": "test_03330.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "d0c60b4279a4591a9af060ed983e5e90.png",
+    "distance": 2.88,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_05835.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "d51f7c6d421b53c78cc7c98a71299afc.png",
+    "distance": 2.65,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_05618.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "d5256a61a6a95f9a9487648279c2c0ac.png",
+    "distance": 3.92,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_05949.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "d65ad84be4dd57b194ff44d96eac1765.png",
+    "distance": 2.66,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_05386.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "e00d89fd5c8b5d869f50938e1789324e.png",
+    "distance": 2.77,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "monocyte",
+    "bm_file": "test_02311.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "e5a34148ccdc5f199e526a802f6a5b4c.png",
+    "distance": 2.67,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "neutrophil",
+    "bm_file": "train_09851.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "f160316bf8455b7696c92ec0ff8aeffb.png",
+    "distance": 2.53,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_04499.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "f414782e3a225f738cf39067da1f60ed.png",
+    "distance": 3.57,
+    "matched": true,
+    "bm_split": "test",
+    "bm_class": "neutrophil",
+    "bm_file": "test_01833.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "f525dda92e095355a3263b1cf0c48d63.png",
+    "distance": 2.25,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "lymphocyte",
+    "bm_file": "train_08827.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "f69bf10a828b5530959d32ee1d5dab96.png",
+    "distance": 3.56,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_01966.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "f7d61e050ebf5ecd82f16fbe18ba3040.png",
+    "distance": 2.83,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "basophil",
+    "bm_file": "train_11067.png"
+  },
+  {
+    "txl_split": "test",
+    "txl_image": "fb1ddc190f165eddbcd79f33e429f761.png",
+    "distance": 3.04,
+    "matched": true,
+    "bm_split": "train",
+    "bm_class": "eosinophil",
+    "bm_file": "train_01119.png"
+  }
+]
